@@ -1,0 +1,35 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  /* 전환효과 */
+  transition: 1s;
+}
+
+/* 마우스를 올렸을 때 효과 */
+/* .box:hover {
+  width: 300px;
+  background-color: royalblue;
+} */
+
+/* 클릭할 때 효과 */
+/* .box:active {
+  width: 300px;
+  background-color: pink;
+} */
+
+/* tabindex="-1" 사용 시 focus 선택자 이용 가능 */
+.box:focus {
+  width: 300px;
+  background-color: mediumvioletred;
+}
+
+
+input{
+
+}
+
+/* focus가 가능한 요소에만 적용 가능 */
+input:focus{
+  background-color: pink;
+}
