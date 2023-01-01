@@ -1,0 +1,32 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+/* 
+
+가상 요소 선택자 before, after
+
+.box::before {
+  content: "BEFORE-";
+}
+
+.box::after {
+  content: "-AFTER";
+} 
+
+*/
+
+.box::after {
+  content: "";
+  /* 가상 요소 선택자는 인라인이기 때문에 
+  블럭으로 만들어줘야 가로 세로 지정이 가능하다 */
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+} 
+
+
+
