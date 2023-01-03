@@ -1,0 +1,25 @@
+.parent {
+  width:300px;
+  height: 200px;
+  background-color: pink;
+}
+.child {
+  width: 100px;
+  /* inherit => 상속되는 속성이 아닌것을 상속되게 한다. */
+  height: inherit;
+  background-color: inherit;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+
+/* 
+
+기본적으로 상속되는 속성들은 `글자`와 관련된 속성들인데
+
+자동으로 상속되지 않는 속성들에 inherit를 통해 강제로 속성시킬 수 있는 것이
+
+css의 "강제 상속" 이라는 개념이다.
+
+
+*/
