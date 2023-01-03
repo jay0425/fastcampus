@@ -1,0 +1,24 @@
+/* 
+모든 type 속성의 색상이 핑크색으로 변한다.
+[type] {
+  background-color: pink;
+} 
+*/
+
+
+
+/* 
+아니면 type 속성 중에서 text값을 가진 속성만 골라서 핑크색으로 만들어줄 수도 있다.
+*/
+[type="text"] {
+  background-color: pink;
+}
+
+[data-fruits-name] {
+color: green;
+}
+
+
+
+
+
